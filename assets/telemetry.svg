@@ -19,8 +19,9 @@
   <g font-family="monospace">
     <text x="52" y="78" font-size="19" letter-spacing="2" fill="#9fffc9">@ILYARJAN1</text>
     <text x="48" y="175" font-size="94" font-family="system-ui,sans-serif" font-weight="750" letter-spacing="-5" fill="#f3fbff">Ilyar</text>
-    <text x="54" y="221" font-size="21" fill="#bdcdd5">ML · Automata · F1</text>
-    <path d="M54 259H347" stroke="#354852"/>
+    <text x="54" y="221" font-size="21" fill="#bdcdd5">ML / AI ENGINEERING</text>
+    <text x="54" y="251" font-size="21" fill="#bdcdd5">AUTONOMOUS SYSTEMS</text>
+    <path d="M54 266H347" stroke="#354852"/>
     <text x="54" y="290" font-size="17" letter-spacing="2" fill="#a9bcc7">DETROIT, MI</text>
   </g>
   <use href="#track" fill="none" stroke="#0a1117" stroke-width="22"/>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="244" viewBox="0 0 960 244" role="img" aria-labelledby="title">
+  <title id="title">SpARC lap times: 174.0 seconds baseline, 97.8 seconds optimized, 43.8% reduction</title>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .result { transform-box: fill-box; transform-origin: left center; animation: grow 1.3s cubic-bezier(.23,1,.32,1) both; }
+      @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    }
+  </style>
+  <rect x="1" y="1" width="958" height="242" rx="20" fill="#101924" stroke="#354852" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif">
+    <text x="32" y="44" fill="#f2f8ff" font-size="24" font-weight="700">SpARC lap time</text>
+    <text x="927" y="44" text-anchor="end" fill="#a3fbd0" font-size="23" font-weight="700">43.8% reduction</text>
+    <g fill="#c7d5e0" font-size="20">
+      <text x="32" y="103">Baseline</text>
+      <text x="32" y="156">Optimized</text>
+    </g>
+    <g stroke="#283d4a">
+      <path d="M188 75V184M348 75V184M508 75V184M668 75V184M828 75V184"/>
+    </g>
+    <rect x="188" y="83" width="618.7" height="23" rx="5" fill="#61788a"/>
+    <rect class="result" x="188" y="136" width="347.7" height="23" rx="5" fill="#a3fbd0"/>
+    <g fill="#ecf7ff" font-size="20" font-weight="650">
+      <text x="819" y="102">174.0 s</text>
+      <text x="550" y="155">97.8 s</text>
+    </g>
+    <g fill="#9fb3c1" font-size="16" text-anchor="middle">
+      <text x="188" y="213">0</text><text x="348" y="213">45</text><text x="508" y="213">90</text>
+      <text x="668" y="213">135</text><text x="828" y="213">180 s</text>
+    </g>
+  </g>
+</svg>

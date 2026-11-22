@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="248" viewBox="0 0 960 248" role="img" aria-labelledby="title">
+  <title id="title">IGVC navigation overview: sensors feed localization and perception, then Nav2 planning and vehicle control</title>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0 0 6 3 0 6Z" fill="#9ad7fc"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="958" height="246" rx="20" fill="#101924" stroke="#354852" stroke-width="2"/>
+  <g fill="#172b39" stroke="#3c5f77" stroke-width="1.5">
+    <rect x="31" y="79" width="254" height="132" rx="12"/>
+    <rect x="353" y="79" width="254" height="132" rx="12"/>
+    <rect x="675" y="79" width="254" height="132" rx="12"/>
+  </g>
+  <g stroke="#9ad7fc" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M297 145H340"/>
+    <path d="M619 145H662"/>
+  </g>
+  <g font-family="system-ui,sans-serif">
+    <text x="31" y="46" fill="#f2f8ff" font-size="24" font-weight="700">Team rACTor · Navigation overview</text>
+    <g font-size="22" font-weight="700" fill="#a6ddff">
+      <text x="51" y="116">Sensors</text>
+      <text x="373" y="116">State &amp; obstacles</text>
+      <text x="695" y="116">Nav2 &amp; control</text>
+    </g>
+    <g font-size="19" fill="#dce9f2">
+      <text x="51" y="153">Camera · LiDAR</text>
+      <text x="51" y="181">GNSS · IMU</text>
+      <text x="373" y="153">Localization</text>
+      <text x="373" y="181">YOLO · Costmaps</text>
+      <text x="695" y="153">Hybrid A* planning</text>
+      <text x="695" y="181">Regulated Pure Pursuit</text>
+    </g>
+  </g>
+</svg>

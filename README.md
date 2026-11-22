@@ -1,13 +1,33 @@
-![Ilyar · Detroit. An animated racing line loops around a telemetry grid.](assets/telemetry.svg)
+![Ilyar · Detroit. An animated marker follows a racing line.](assets/telemetry.svg)
 
-I’m Ilyar, a CS enthusiast in Detroit. I build projects in machine learning and computer science, from F1 strategy tools to finite automata visualizations.
+I'm **Ilyarzhan Assimov**, a machine learning engineer and M.S. Computer Science candidate at **Lawrence Technological University**. My work spans computer vision, autonomous navigation and control, and data analysis.
 
-### Selected projects
+[LinkedIn](https://www.linkedin.com/in/ilyarzhan-assimov)
 
-| Project | What it does |
+## Autonomous driving & robotics
+
+### [SpARC Autonomous Racing](projects/sparc.md)
+
+**1st place · Zero-Noise Time Trials · November 2026**
+
+My three-person team took first place in simulation. I proposed and implemented sector-based speed optimization and helped tune the racing controller. Our best lap was **97.8 s**, down from the **174.0 s** provided baseline.
+
+[![SpARC lap time: 174.0 s baseline and 97.8 s optimized, a 43.8% reduction.](assets/sparc-lap-times.svg)](projects/sparc.md)
+
+### [IGVC Self-Drive · Team rACTor](projects/igvc.md)
+
+**1st place · Self-Drive Challenge · 2026**
+
+I contributed to ROS 2 and Nav2 integration for LTU's four-wheel-steering vehicle, working on navigation and supporting YOLO-based perception.
+
+[![IGVC system overview: localization and perception feed Nav2 planning and control.](assets/igvc-navigation.svg)](projects/igvc.md)
+
+## Machine learning & analytics
+
+| Project | Focus |
 | --- | --- |
-| [F1 Race Strategy Decision Engine](https://github.com/ilyarjan1/f1-race-strategy-decision-engine) | Explore pit windows, tire recommendations, and comparable race situations in an interactive dashboard. |
-| [Regex → NFA → DFA](https://github.com/ilyarjan1/Regex-to-NFA-DFA) | See how a regular expression becomes a nondeterministic and then a deterministic finite automaton. |
-| [Skin Lesion Classification](https://github.com/ilyarjan1/Skin_Cancer_dl) | Experiment with image classification using TensorFlow and EfficientNet. |
+| [Deepfake Detection Research](https://github.com/ilyarjan1/deepfake-detection-thesis) | Graduate research on whether AI-generated image detectors generalize to newer datasets. The repo tracks baseline reproduction, evaluation, and experiment status. |
+| [Skin Lesion Classification](https://github.com/ilyarjan1/Skin_Cancer_dl) | Medical image classification with TensorFlow and EfficientNet, part of my undergraduate research. |
+| [F1 Race Strategy Decision Engine](https://github.com/ilyarjan1/f1-race-strategy-decision-engine) | A Python dashboard for exploring pit windows, tire recommendations, and comparable race situations. |
 
-[LinkedIn](https://www.linkedin.com/in/ilyarzhan-assimov) · [LeetCode](https://leetcode.com/Ilyariiii_/)
+**Tools and methods** · Python, NumPy, TensorFlow, scikit-learn, OpenCV, YOLO, ROS 2, Nav2, Gazebo, RViz2
