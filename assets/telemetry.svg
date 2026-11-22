@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" role="img" aria-labelledby="title">
+  <title id="title">Ilyar · Detroit — animated racing telemetry</title>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#0b121b"/>
+      <stop offset="1" stop-color="#16242b"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#354852" stroke-opacity=".45"/>
+    </pattern>
+    <path id="track" d="M513 241 C475 245 452 219 465 191 L503 111 Q521 72 563 79 L633 95 Q654 100 670 84 L700 55 Q713 43 731 52 L830 103 Q855 116 847 143 L826 200 Q817 223 792 224 L727 225 Q704 224 689 244 L675 262 Q660 283 636 271 L578 242 Q558 233 513 241 Z"/>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+  </style>
+  <rect x="1" y="1" width="958" height="338" rx="22" fill="url(#panel)" stroke="#354852" stroke-width="2"/>
+  <rect x="402" y="24" width="534" height="292" rx="12" fill="url(#grid)"/>
+  <path d="M402 42V298" stroke="#354852"/>
+  <g font-family="monospace">
+    <text x="52" y="78" font-size="19" letter-spacing="2" fill="#9fffc9">@ILYARJAN1</text>
+    <text x="48" y="175" font-size="94" font-family="system-ui,sans-serif" font-weight="750" letter-spacing="-5" fill="#f3fbff">Ilyar</text>
+    <text x="54" y="221" font-size="21" fill="#bdcdd5">ML · Automata · F1</text>
+    <path d="M54 259H347" stroke="#354852"/>
+    <text x="54" y="290" font-size="17" letter-spacing="2" fill="#a9bcc7">DETROIT, MI</text>
+  </g>
+  <use href="#track" fill="none" stroke="#0a1117" stroke-width="22"/>
+  <use href="#track" fill="none" stroke="#52656e" stroke-width="10"/>
+  <use href="#track" fill="none" stroke="#9fffc9" stroke-opacity=".75" stroke-width="2" stroke-dasharray="3 8"/>
+  <path d="M526 231L529 250M532 230L535 249" stroke="#e9f9f2" stroke-width="2"/>
+  <g class="motion">
+    <circle r="16" fill="#9fffc9" opacity=".22"/>
+    <circle r="7" fill="#c0ffda" stroke="#132821" stroke-width="2"/>
+    <animateMotion dur="7s" repeatCount="indefinite" path="M513 241 C475 245 452 219 465 191 L503 111 Q521 72 563 79 L633 95 Q654 100 670 84 L700 55 Q713 43 731 52 L830 103 Q855 116 847 143 L826 200 Q817 223 792 224 L727 225 Q704 224 689 244 L675 262 Q660 283 636 271 L578 242 Q558 233 513 241 Z"/>
+  </g>
+</svg>
