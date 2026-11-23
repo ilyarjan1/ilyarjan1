@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300">
+  <title>Two open-wheel race cars lap an illustrated circuit</title>
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#29313d" stroke-width="1"/></pattern>
+    <pattern id="flag" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#161b23"/><path d="M0 0H6V6H0ZM6 6H12V12H6Z" fill="#eef5ff"/></pattern>
+    <radialGradient id="bg"><stop stop-color="#222b38"/><stop offset="1" stop-color="#090c12"/></radialGradient>
+    <path id="track" d="M180 217H400Q430 217 450 193L497 138Q514 117 545 117H601Q623 117 641 103L678 76Q702 58 740 62L794 69Q847 76 857 112Q869 150 825 171L744 208Q718 220 681 220H590Q564 220 542 233L520 245Q500 256 470 256H180Q111 256 106 207Q103 166 141 148L210 114Q239 100 268 100H349Q392 100 398 72Q403 45 368 45H229Q202 45 175 59L110 94Q75 114 75 149Q75 181 107 199Q137 217 180 217Z"/>
+    <g id="car">
+      <rect x="-18" y="-10" width="8" height="6" rx="2" fill="#080a10" stroke="#b5bfce"/>
+      <rect x="-18" y="4" width="8" height="6" rx="2" fill="#080a10" stroke="#b5bfce"/>
+      <rect x="9" y="-9" width="7" height="5" rx="2" fill="#080a10" stroke="#b5bfce"/>
+      <rect x="9" y="4" width="7" height="5" rx="2" fill="#080a10" stroke="#b5bfce"/>
+      <path d="M-19-10h4v20h-4zM16-8h5V8h-5zM-15-4h13L4-2 19-1v2L4 2-2 4h-13z" fill="currentColor"/>
+      <path d="M-7-3h7v6h-7z" fill="#101520"/><circle cx="-2" r="1.6" fill="#fff"/>
+    </g>
+  </defs>
+  <style>@media(prefers-reduced-motion:reduce){.moving{display:none}} @media(prefers-reduced-motion:no-preference){.parked{display:none}}</style>
+  <path fill="url(#bg)" d="M0 0H960V300H0Z"/>
+  <path fill="url(#grid)" opacity=".56" d="M0 0H960V300H0Z"/>
+  <use href="#track" fill="none" stroke="#526175" stroke-width="26"/>
+  <use href="#track" fill="none" stroke="#111822" stroke-width="22"/>
+  <use href="#track" fill="none" stroke="#8b9ab0" stroke-opacity=".5" stroke-width="1.4" stroke-dasharray="3 8"/>
+  <path d="M280 206h12v22h-12z" fill="url(#flag)"/>
+  <path d="M706 52q35-8 87 5M819 182l-66 31M210 104q21-12 53-14" fill="none" stroke="#f33535" stroke-width="4" stroke-linecap="round"/>
+  <g class="moving">
+    <g color="#ff4a4f">
+      <use href="#car"/><animateMotion dur="12s" repeatCount="indefinite" rotate="auto"><mpath href="#track"/></animateMotion>
+    </g>
+    <g color="#34a5ff">
+      <use href="#car"/><animateMotion dur="12s" begin="-4s" repeatCount="indefinite" rotate="auto"><mpath href="#track"/></animateMotion>
+    </g>
+  </g>
+  <g class="parked">
+    <use href="#car" color="#ff4a4f" transform="translate(355 217)"/>
+    <use href="#car" color="#34a5ff" transform="translate(760 65) rotate(8)"/>
+  </g>
+</svg>

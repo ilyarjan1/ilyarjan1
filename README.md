@@ -30,4 +30,7 @@ I worked on ROS 2 and Nav2 integration for LTU's four-wheel-steering vehicle, co
 ## Data analytics
 
 - **[F1 Race Strategy Decision Engine](https://github.com/ilyarjan1/f1-race-strategy-decision-engine)** — Explores pit windows and tire recommendations from lap data through an interactive dashboard. Includes a KNN baseline and model evaluation.
+
+  [![Animated red and blue race cars circling an illustrated track](assets/f1-circuit.svg)](https://f1-race-strategy-engine-analysis.vercel.app/)
+
 - **[Superstore Power BI Dashboard](https://github.com/ilyarjan1/datavis_superstore)** — Tracks retail sales, profit, and order volume. The repository includes the Power BI workbook and a PDF preview.
