@@ -8,6 +8,7 @@ I contributed to the autonomous navigation stack and robotic system design for L
 
 ![A simplified view of the team vehicle's localization, perception, planning, and control.](../assets/igvc-navigation.svg)
 
+http://www.igvc.org/
 ## Engineering highlights
 
 - **Navigation.** I worked on integration with a Nav2 stack using Hybrid A* for feasible paths and Regulated Pure Pursuit for path tracking.
