@@ -4,7 +4,7 @@
 
 [← Profile README](../README.md)
 
-My three-person team competed in a Python-based autonomous racing simulation organized by the Spartans Autonomous Racing Club. Our optimized controller completed a lap in **97.8 seconds**, a **43.8% reduction** from the provided 174.0-second baseline.
+My three-person team competed in a Python-based autonomous racing simulation hackathon organized by the Spartans Autonomous Racing Club. Our optimized controller completed a lap in **97.8 seconds**, a **43.8% reduction** from the provided 174.0-second baseline. We set the fastest lap-time and won 1st place
 
 ![Baseline and optimized lap times.](../assets/sparc-lap-times.svg)
 
